@@ -11,6 +11,6 @@ The NCCLIENT get_config pulls the YANG running config in XML.
 
 MINIDOM is used to format the XML into a more readable form when writing the config to a file in the .\XML_RUNNING_CONFIGS\ folder.
 
-\XML_RUNNING_CONFIGS\ needs to be created in the same directory the script is located.
+#\XML_RUNNING_CONFIGS\ needs to be created in the same directory the script is located!
 
 XMLTODICT is used to convert the XML running config into a dictionary object to easily parse the hostname from the config and apply the hostname as the file name written to the output directory.
