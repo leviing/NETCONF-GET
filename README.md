@@ -1,7 +1,7 @@
 # NETCONF-GET RUNNING-CONFIG
 This Python script will pull the YANG running config from a device(s) listed in a .csv using NETCONF and output a running config in XML. 
 
-The scripts starts by prompting the user to provide a username and password. The username and password variables are in the main function but above the loop so they are used for every network device in the Network_Devices.csv. 
+The script starts by prompting the user to provide a username and password. The username and password variables are in the main function but above the loop so they are used for every network device in the Network_Devices.csv. 
 
 Devices in the .csv file can be listed as IP addresses or hostnames if the network supports. 
 
